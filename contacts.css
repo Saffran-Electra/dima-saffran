@@ -56,7 +56,7 @@ nav{
 }
 
 .forma{
-    margin-left: 380px;
+    margin-left: 390px;
     margin-top: 109px;
     width:805px;
     height: 709px;}
@@ -119,7 +119,7 @@ word-wrap: break-word;
   }
 
 .input-high{
-    padding-bottom: 200px;   
+    padding-bottom: 100px;   
     resize: none;
 }
 .contacts{
@@ -155,3 +155,31 @@ word-wrap: break-word
     right:0px;
     z-index: 1000;
 }
+
+.button-cont{
+    text-align: center;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left:180px;
+    margin-right: 180px;
+    justify-content: space-between;
+    display:flex;
+    flex-direction: row;
+    background-color: black;
+    text-align: center;
+    border-radius: 15px;
+}
+.buttel{
+    padding-left: 10px;
+    font-family: 'Inter Tight', sans-serif;
+    border:0.2px;
+    cursor: pointer;
+    font-size: 36px;
+    font-weight: 500;
+    background: rgb(254,128,129);
+    background: linear-gradient(45deg, rgba(254,128,129,1) 0%, rgba(143,208,249,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+    transition: background cubic-bezier(0.075, 0.82, 0.165, 1), 2s;}
